@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "weiboReminder",
+      "cmd": "main.py",
+      "interpreter": "python3",
+      "autorestart": true,
+      "watch": true,
+      "error_file": "./log/err.log",
+      "out_file": "./log/out.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch": [
+        "./log"
+      ]
+    }
+  ]
+}

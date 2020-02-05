@@ -1,0 +1,26 @@
+[
+  {
+    "weiboID": "健康成都",
+    "contrainerID": 1076033309826382,
+    "keyword": ["新型冠状病毒感染的肺炎确诊病例"],
+    "shieldingWords": ""
+  },
+  {
+    "weiboID": "绵阳发布",
+    "contrainerID": 1076036619634925,
+    "keyword": ["新型冠状病毒感染的肺炎确诊病例"],
+    "shieldingWords": ""
+  },
+  {
+    "weiboID": "健康自贡",
+    "contrainerID": 1076035708638122,
+    "keyword": ["新型冠状病毒感染的肺炎疑似病例"],
+    "shieldingWords": "健康发布"
+  },
+  {
+    "weiboID": "广安日报",
+    "contrainerID": 1076035668334615,
+    "keyword": ["疫情速报"],
+    "shieldingWords": ""
+  }
+]
