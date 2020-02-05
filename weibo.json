@@ -2,25 +2,68 @@
   {
     "weiboID": "健康成都",
     "contrainerID": 1076033309826382,
-    "keyword": ["新型冠状病毒感染的肺炎确诊病例"],
+    "keyword": ["新增","例"],
     "shieldingWords": ""
   },
   {
     "weiboID": "绵阳发布",
     "contrainerID": 1076036619634925,
-    "keyword": ["新型冠状病毒感染的肺炎确诊病例"],
+    "keyword": ["新增","例"],
     "shieldingWords": ""
   },
   {
     "weiboID": "健康自贡",
     "contrainerID": 1076035708638122,
-    "keyword": ["新型冠状病毒感染的肺炎疑似病例"],
+    "keyword": ["新增","例"],
     "shieldingWords": "健康发布"
   },
   {
     "weiboID": "广安日报",
     "contrainerID": 1076035668334615,
-    "keyword": ["疫情速报"],
+    "keyword": ["新增","例"],
     "shieldingWords": ""
   }
+  {
+    "weiboID": "连云港发布",
+    "contrainerID": 1076035303188384,
+    "keyword": ["新增","例"],
+    "shieldingWords": "健康发布"
+  },
+  {
+    "weiboID": "泸州发布",
+    "contrainerID": 1076032815494720,
+    "keyword": ["新增","例"],
+    "shieldingWords": "健康发布"
+  },
+  {
+    "weiboID": "健康德阳官微",
+    "contrainerID": 1076033209704633,
+    "keyword": ["新增","例"],
+    "shieldingWords": "健康发布"
+  },
+  {
+    "weiboID": "南充播报",
+    "contrainerID": 1076032010395287,
+    "keyword": ["新增","例"],
+    "shieldingWords": "健康发布"
+  },
+  {
+    "weiboID": "达州发布",
+    "contrainerID": 1076033888223184,
+    "keyword": ["新增","例"],
+    "shieldingWords": "健康发布"
+  },
+  {
+    "weiboID": "微甘孜",
+    "contrainerID": 1076035090609707,
+    "keyword": ["新增","例"],
+    "shieldingWords": "健康发布"
+  },
+  {
+    "weiboID": "郑州发布",
+    "contrainerID": 1076032434139193,
+    "keyword": ["新增","例"],
+    "shieldingWords": "健康发布"
+  }
+
 ]

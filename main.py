@@ -55,7 +55,7 @@ def getWeibo(i):
                                 tag = False
 
                         if tag is True:
-                            print("Find new message")
+                            print("FIND NEW MESSAGE")
                             if i['shieldingWords'] == "":
                                 title = f"{weiboID} 微博更新提醒"
                                 mail_msg = text + "\n" + url
@@ -65,6 +65,8 @@ def getWeibo(i):
                                 title = f"{weiboID} 微博更新提醒"
                                 mail_msg = text + "\n" + url
                                 send(mail_msg, title)
+                            else:
+                                print("FIND SHIELDINGWORDS,")
 
                         else:
                             print("TEXT DON'T MATCH")
