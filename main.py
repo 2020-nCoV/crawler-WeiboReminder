@@ -77,7 +77,7 @@ def getWeibo(i):
                     pass
 
     except Exception as e:
-        print('[ERR] ERROR WHEN GET WEIBO', e)
+        print('[ERROE] GET WEIBO FAILED', e)
     finally:
         pass
 
