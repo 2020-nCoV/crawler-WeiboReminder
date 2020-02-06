@@ -2,17 +2,16 @@ import smtplib
 from email.header import Header
 from smtplib import SMTP_SSL
 from email.mime.text import MIMEText
-from setting import mailConfig
 
 
-def send(mail_msg, title):
-    config = mailConfig()
-    mail_host = config["mail_host"]
-    mail_user = config["mail_user"]
-    mail_pass = config["mail_pass"]
+
+def send(mail_msg,title):
+    mail_host = "smtp.qq.com"
+    mail_user = "451459536@qq.com"
+    mail_pass = "qsyrrsrdizvscbea"
 
     sender = mail_user
-    receivers = config["receivers"]
+    receivers = ['ultraxia@foxmail.com']
 
     smtpObj = SMTP_SSL(mail_host)
     smtpObj.ehlo()
@@ -27,7 +26,7 @@ def send(mail_msg, title):
 
     try:
         smtpObj.sendmail(sender, receivers, message.as_string())
-        print("邮件发送成功")
+        print ("[INFO] MAIL SNET SUCCESSFULLY")
     except smtplib.SMTPException as e:
         print(e)
-        print("Error: 无法发送邮件")
+        print ("[INFO] Error: MAIL SNET FAILED")
