@@ -30,4 +30,4 @@ def send(mail_msg, title):
         print("[INFO] MAIL SENT SUCCESSGULLY")
     except smtplib.SMTPException as e:
         print(e)
-        print("[ERROR] ,MAIL SENT FAILED)
+        print("[ERROR] ,MAIL SENT FAILED")
