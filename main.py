@@ -43,7 +43,7 @@ def getWeibo(i):
 
                     # 检查新微博是否是转发
                     if weibo.checkRetweet(idcount):
-                        print("IGNORE REPOST TEXT")
+                        print("[INFO] IGNORE REPOST TEXT")
                     else:
                         text = weibo.getWeibo(idcount)
                         url = weibo.getScheme(idcount)
@@ -66,10 +66,10 @@ def getWeibo(i):
                                 mail_msg = text + "\n" + url
                                 send(mail_msg, title)
                             else:
-                                print("FIND SHIELDINGWORDS,")
+                                print("[INFO] FIND SHIELDINGWORDS,")
 
                         else:
-                            print("TEXT DON'T MATCH")
+                            print("[INFO] TEXT DON'T MATCH")
 
                     time.sleep(0.5)
 
@@ -77,7 +77,7 @@ def getWeibo(i):
                     pass
 
     except Exception as e:
-        print('ERROR WHEN GET WEIBO', e)
+        print('[ERR] ERROR WHEN GET WEIBO', e)
     finally:
         pass
 
